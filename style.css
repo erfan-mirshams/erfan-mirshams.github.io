@@ -1,0 +1,60 @@
+body {
+	"DejaVu Sans", sans-serif ;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33%;
+}
+
+.contact_box {
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+.contact_img {
+	max-height: 2.5em;
+}
+
+.div-rtl{
+	direction: rtl;
+}
+
+#tag_personal:before { content: '😎' ; }
+#tag_tech:before { content: '🤖' ; }
+#tag_software:before { content: '💻' ; }
