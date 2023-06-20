@@ -58,3 +58,5 @@ footer {
 #tag_personal:before { content: '😎' ; }
 #tag_tech:before { content: '🤖' ; }
 #tag_software:before { content: '💻' ; }
+#tag_movies:before {content: '🎥' ; }
+#tag_privacy:before {content: '🥸' ;}
