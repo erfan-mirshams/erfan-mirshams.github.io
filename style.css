@@ -1,5 +1,10 @@
+@font-face{
+	font-family: "samim";
+	src: url(fonts/samim.woff2) format(woff2);
+}
+
 body {
-	"DejaVu Sans", sans-serif ;
+	font-family: "samim", "DejaVu Sans", sans-serif ;
 }
 
 main {
@@ -8,7 +13,12 @@ main {
 }
 
 img {
-	max-width: 100% ;
+	max-width: 100%;
+}
+
+img:not(.contact_box img) {
+	display: block;
+	margin: auto;
 }
 
 header h1 {
