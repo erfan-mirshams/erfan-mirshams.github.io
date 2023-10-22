@@ -21,6 +21,10 @@ img:not(.contact_box img) {
 	margin: auto;
 }
 
+.center-div{
+	text-align: center;
+}
+
 header h1 {
 	text-align: center ;
 }
@@ -72,3 +76,4 @@ footer {
 #tag_privacy:before {content: '🥸' ;}
 #tag_religion::before { content: '🕌'}
 #tag_work::before { content: '🛠️'}
+#tag_music::before { content: '🎵'}
