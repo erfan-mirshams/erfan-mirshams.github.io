@@ -71,3 +71,4 @@ footer {
 #tag_movies:before {content: '🎥' ; }
 #tag_privacy:before {content: '🥸' ;}
 #tag_religion::before { content: '🕌'}
+#tag_work::before { content: '🛠️'}
