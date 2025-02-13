@@ -77,6 +77,8 @@ footer {
 #tag_religion::before { content: '🕌'}
 #tag_work::before { content: '🛠️'}
 #tag_music::before { content: '🎵'}
+#tag_college::before { content: '🎓'}
+#tag_cringe::before {content: '🤢'}
 
 /* Content styling */
 .content-wrapper {
