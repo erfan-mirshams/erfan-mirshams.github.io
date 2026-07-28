@@ -3,8 +3,27 @@
     src: url(fonts/samim.woff2) format(woff2);
 }
 
+@font-face {
+    font-family: "Vazirmatn";
+    src: url(/fonts/Vazirmatn-regular.woff2) format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Vazirmatn";
+    src: url(/fonts/Vazirmatn-bold.woff2) format("woff2");
+    font-weight: 700;
+}
+
 body {
-    font-family: "samim", "DejaVu Sans", sans-serif;
+    font-family:
+        "samim",
+        "Vazirmatn",
+        system-ui,
+        -apple-system,
+        "Tahoma",
+        "Segoe UI",
+        Roboto,
+        sans-serif;
 }
 
 main {
@@ -117,12 +136,6 @@ footer {
 /* RTL specific styling */
 .rtl {
     direction: rtl;
-    font-family:
-        system-ui,
-        -apple-system,
-        "Segoe UI",
-        Roboto,
-        sans-serif;
 }
 
 /* Responsive adjustments */
